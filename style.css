@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,800&family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	position: fixed;
+	background-color: #2F2F2F;
+	height: 10vh;
+	width: 100%;
+	top: 0;
+}
+
+nav {
+	max-width: 75vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+}
+
+.left-nav {
+	color: white;
+}
+
+nav > div > h1 {
+	font-size: 2rem;
+	font-family: 'Andada Pro', serif;
+	margin:auto;
+}
+
+nav > div > i {
+	margin: auto;
+	font-size: 3rem;
+	color: lightgrey;
+}
+
+.i-left {
+	margin-right: 1rem;
+}
+
+.i-right {
+	margin-left: 1rem;
+	transform: rotate(180deg);
+}
+
+nav > ul > li {
+	list-style: none;
+	padding: .75rem;
+	font-size: 1.25rem;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	color: lightgrey;
+}
+
+nav > ul > li > a:hover {
+	color: white; 
+	border-top: white 5px solid;
+	padding-top: 1.4rem;
+}
+
+nav > ul > p {
+	padding: 7px;
+	color: white;
+	border: 3px white solid;
+	font-family: 'Andada Pro', serif;
+	margin:auto;
+	margin-left: .5rem;
+}
+
+.body-container {
+
+}
+
+.container {
+	max-width: 75vw;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about {
+	width: 100vw; 
+	height: 100vh;
+	background-color: black;
+	padding-top: 10vh;
+	color: white;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 100px;
+}
+
+.about-text {
+	line-height: 80px;
+}
+
+.about-pic {
+	max-width: 100%;
+	height: auto;
+}
+
+.text {
+	font-size: 4rem;
+	font-family: 'Andada Pro', serif;
+	text-align: center;
+	margin: auto;
+}
+
+#prices {
+	width: 100%;  
+	height: 100vh;
+	background-color: white;
+}
+
+#styles {
+	width: 100%;  
+	height: 100vh;
+	background-color: black;
+}
+
+#directions {
+	width: 100%; 
+	height: 100vh;
+	background-color: white;
+}
+
+#appointments {
+	width: 100%; 
+	height: 100vh;
+	background-color: black;
+}
