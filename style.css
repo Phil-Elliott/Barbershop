@@ -128,12 +128,12 @@ nav > ul > p {
 	width: 100%;  
 	height: 100vh;
 	background-color: white;
-	padding-top: 10vh;
 	text-align: center;
 	font-size: 2.5rem;
 }
 
 .prices-container {
+	padding-top: 1vh;
 	display: grid;
 	grid-template-columns: .4fr .3fr;
 	font-family: 'Andada Pro', serif;
@@ -147,6 +147,7 @@ nav > ul > p {
 }
 
 .prices-header {
+	padding-top: 10vh;
 	border-bottom: 5px black solid;
 	max-width: 47rem;
 	margin: auto;
@@ -177,7 +178,7 @@ nav > ul > p {
 	height: 25rem;
 	width: 25rem;
 	margin: auto;
-	margin-top: 4rem;
+	margin-top: 2rem;
 }
 
 .barber-img {
@@ -188,11 +189,12 @@ nav > ul > p {
 }
 
 .barber-content {
-	font-size: 16px;
+	font-size: 20px;
+	font-family: 'Roboto', serif;
 	text-align: center;
 }
 
-#directions {
+#contact {
 	width: 100%; 
 	height: 100vh;
 	background-color: white;
@@ -201,12 +203,26 @@ nav > ul > p {
 .text2 {
 	font-family: 'Roboto', serif;
 	font-size: 2rem;
-	line-height: 70px;
+	line-height: 60px;
 	text-align: center;
 }
 
-#appointments {
-	width: 100%; 
-	height: 100vh;
-	background-color: black;
+.contact-info {
+	text-align: left;
+	margin: auto;
+	font-size: 1.7rem;
+	line-height: 70px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.social {
+	font-size: 2rem;
+	color: white;
+	padding: .5rem;
+	margin: .5rem;
+	background-color: #2F2F2F;
+	border-radius: 50px;
 }
