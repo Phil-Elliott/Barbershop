@@ -136,7 +136,7 @@ nav > ul > p {
 .prices-container {
 	display: grid;
 	grid-template-columns: .4fr .3fr;
-	font-family: 'Roboto', serif;
+	font-family: 'Andada Pro', serif;
 	justify-content: center;
 	text-align: center;
 }
@@ -146,10 +146,50 @@ nav > ul > p {
 	margin: auto;
 }
 
-#styles {
+.prices-header {
+	border-bottom: 5px black solid;
+	max-width: 47rem;
+	margin: auto;
+}
+
+#barbers {
 	width: 100%;  
 	height: 100vh;
 	background-color: black;
+	color: white;
+}
+
+.barbers-header {
+	border: 5px solid white;
+}
+
+.barbers-text {
+	text-indent: 60px;
+	text-align: left;
+}
+
+.barber-imgs {
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 100px;
+	grid-row-gap: 10px;
+	height: 25rem;
+	width: 25rem;
+	margin: auto;
+	margin-top: 4rem;
+}
+
+.barber-img {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+	border-radius: 20px;
+}
+
+.barber-content {
+	font-size: 16px;
+	text-align: center;
 }
 
 #directions {
@@ -158,7 +198,7 @@ nav > ul > p {
 	background-color: white;
 }
 
-.directions-text {
+.text2 {
 	font-family: 'Roboto', serif;
 	font-size: 2rem;
 	line-height: 70px;
