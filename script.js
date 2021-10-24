@@ -77,13 +77,3 @@ function changePic() {
 
 	},30)
 }
-
-
-/*   get the buttons to be active on their designated part of the page
-			3) Have a link become active when clicked and remove anyother active link 
-				- remove classname from all others (maybe make a function for this) - do first
-					- use a forEach to remove all of the active classes 
-				- add the classname as clicked 
-			4) Do the same think now with scroll
-
-*/ 

@@ -38,16 +38,17 @@ nav {
 }
 
 nav > div > h1 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-family: 'Andada Pro', serif;
 	margin:auto;
 }
 
 nav > div > i {
-	margin: .6rem;
-	font-size: 3rem;
+	margin: auto;
+	margin-left: 1rem;
+	font-size: 2rem;
 	color: lightgrey;
-	margin-right: .2rem;
+	transform: rotate(-20deg);
 }
 
 nav > ul > li {
@@ -225,4 +226,225 @@ a {
 	margin: .5rem;
 	background-color: #2F2F2F;
 	border-radius: 50px;
+}
+
+.map {
+	width: 600px;
+	height: 450px;
+	border:0;
+}
+
+@media only screen and (max-width: 1200px) {
+
+nav > div > h1 {
+	font-size: 1.6rem;
+	margin: auto;
+}
+
+.text {
+	font-size: 2rem;
+}
+
+nav > ul > p {
+	padding: 0px;
+	font-size: 0rem;
+	border: none;
+}
+
+.barbers-header {
+	border: 3px solid white;
+}
+
+.barber-imgs {
+	margin: auto;
+	grid-gap: 10px;
+}
+
+.barber-img {
+	max-width: 60%;
+}
+
+.barber-content {
+	font-size: 16px;
+}
+
+.text2 {
+	font-size: 1.3rem;
+	line-height: 40px;
+}
+
+#contact {
+	width: 100%; 
+	height: 100vh;
+	background-color: white;
+}
+
+.media-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 50px;
+}
+
+.contact-info {
+	text-align: left;
+	margin: auto;
+	font-size: 1.8rem;
+	line-height: 60px;
+}
+
+.social {
+	font-size: 1.5rem;
+}
+
+.map {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+}
+
+@media only screen and (max-width: 770px) {
+
+header {
+	position: fixed;
+	max-width: 100vw;
+	background-color: #2F2F2F;
+	height: 12vh;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+ nav {
+ 	max-width: 85vw;
+ 	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	text-align: center;
+  }
+
+  .nav {
+  	margin: auto;
+  	margin-top: .2rem;
+  	width: 100%;
+  }
+
+ nav > div > h1 {
+	font-size: 1.3rem;
+	font-family: 'Andada Pro', serif;
+	margin: auto;
+	margin-top: .5rem;
+	}
+	
+nav > div > i {
+	font-size: 1rem;
+	margin: auto;
+	margin-left: -6rem;
+}
+
+nav > ul > p {
+	padding: 0px;
+	font-size: 0rem;
+	border: none;
+}
+
+nav > ul > li > a:hover {
+	color: none; 
+	border-top: none;
+	padding-top: 0rem;
+}
+
+.active {
+	color: white; 
+	border-top: none;
+	border-bottom: 3px white solid;
+	padding-top: 0rem;
+}
+
+#about {
+	width: 100vw; 
+	height: 100vh;
+	background-color: black;
+	padding-top: 0vh;
+	color: white;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.text {
+	font-size: 2rem;
+	line-height: 70px;
+	font-family: 'Andada Pro', serif;
+	text-align: center;
+	margin: auto;
+}
+
+.about-pic {
+	max-width: 60%;
+	height: auto;
+	margin: auto;
+}
+
+#prices {
+	font-size: 1rem;
+}
+
+.prices-header {
+	padding-top: 10vh;
+	border-bottom: 5px black solid;
+	max-width: 20rem;
+	margin: auto;
+	font-size: 2rem;
+}
+
+.barbers-header {
+	border: 3px solid white;
+}
+
+.barber-imgs {
+	margin-top: -2rem;
+}
+
+.barber-img {
+	max-width: 50%;
+}
+
+.barber-content {
+	font-size: 12px;
+}
+
+.text2 {
+	font-size: 1rem;
+	line-height: 40px;
+}
+
+#contact {
+	width: 100%; 
+	height: 100vh;
+	background-color: white;
+}
+
+.contact-info {
+	text-align: left;
+	margin: auto;
+	font-size: 1.3rem;
+	line-height: 60px;
+}
+
+.social {
+	font-size: 1.5rem;
+}
+
+.map {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
 }
