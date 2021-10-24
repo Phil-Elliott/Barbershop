@@ -471,6 +471,14 @@ header {
 	position: relative;
 }
 
+#about {
+	width: 100vw; 
+	height: 100vh;
+	background-color: black;
+	margin-top: -5rem;
+	color: white;
+}
+
 nav > div > i {
 	font-size: 0rem;
 	margin: 0;
@@ -487,6 +495,7 @@ nav > div > i {
 .barbers-header {
 	border: 3px solid white;
 	max-width: 280px;
+	margin-top: -7rem;
 }
 
 .barber-imgs {
@@ -496,7 +505,7 @@ nav > div > i {
 	height: 10rem;
 	width: 20rem;
 	margin: auto;
-	margin-top: 0rem;
+	margin-top: 2rem;
 }
 
 .barber-img {
