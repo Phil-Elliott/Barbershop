@@ -105,6 +105,7 @@ nav > ul > p {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 100px;
+	grid-row-gap: 10px;
 }
 
 .text {
@@ -116,8 +117,14 @@ nav > ul > p {
 
 .about-text {
 	line-height: 120px;
-	font-family: 'Andada Pro', serif;
-	font-size: 4rem;
+	font-family: 'Roboto', serif;
+	font-size: 3.2rem;
+	font-weight: bold;
+	border: 5px white solid;
+	padding: 1rem 2rem;
+	background-color: black;
+	color: white;
+	box-shadow: 5px 10px 10px grey;
 }
 
 .about-pic {
@@ -238,6 +245,15 @@ a {
 	border:0;
 }
 
+@media only screen and (max-width: 1400px) {
+
+.about-text {
+	font-size: 1.9rem;
+	padding: 0rem 2rem;
+}	
+
+}
+
 @media only screen and (max-width: 1200px) {
 
 .active {
@@ -259,6 +275,11 @@ nav > ul > p {
 	padding: 0px;
 	font-size: 0rem;
 	border: none;
+}
+
+.about-text {
+	font-size: 1.5rem;
+	padding: 0rem 2rem;
 }
 
 .barbers-header {
@@ -315,7 +336,7 @@ nav > ul > p {
 
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 820px) {
 
 header {
 	position: fixed;
@@ -384,12 +405,11 @@ nav > ul > li > a:hover {
 	width: 100vw; 
 	height: 100vh;
 	background-color: black;
-	padding-top: 0vh;
+	padding-top: 3rem;
 	color: white;
 }
 
 .container {
-	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
 }
@@ -400,6 +420,11 @@ nav > ul > li > a:hover {
 	font-family: 'Andada Pro', serif;
 	text-align: center;
 	margin: auto;
+}
+
+.about-text {
+	font-size: 1.7rem;
+	padding: 0rem 2rem;
 }
 
 .about-pic {
@@ -475,8 +500,17 @@ header {
 	width: 100vw; 
 	height: 100vh;
 	background-color: black;
-	margin-top: -5rem;
+	margin-top: 0rem;
 	color: white;
+	margin-top: -3rem;
+}
+.container {
+	grid-row-gap: 20px;
+}
+
+.about-text {
+	font-size: 1.2rem;
+	padding: 1rem 2rem;
 }
 
 nav > div > i {
@@ -541,8 +575,9 @@ nav > div > i {
 }
 
 .map {
+	padding-top: 5rem;
 	width: 300px;
-	height: 200px;
+	height: 300px;
 	margin: auto;
 }
 }

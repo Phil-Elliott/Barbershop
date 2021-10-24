@@ -40,7 +40,7 @@ const scale = (number, inMin, inMax, outMin, outMax) => {
 }
 
 //start the interval
-let int1 = setInterval(changePic, 12000)
+let int1 = setInterval(changePic, 9000)
 
 
 function changePic() {
@@ -70,10 +70,10 @@ function changePic() {
 
 			pic.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 
-		}, 30)
+		}, 10)
 	}
 
 	pic.style.filter = `blur(${scale(decrease, 0, 100, 30, 0)}px)`
 
-	},30)
+	},10)
 }
