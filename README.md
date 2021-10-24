@@ -1,6 +1,6 @@
 # Barbershop
 
-This was a pretty fun project and I learned quite a bit. It was my first website, so a lot of mistakes were made in the process and lot of those became more noticable at the end. 
+This was a pretty fun project and I learned quite a bit. It was my first website, so a lot of mistakes were made in the process and alot of those became more noticable at the end. 
 
 Things I learned
   1) Media queries 
@@ -14,4 +14,4 @@ Things I need to learn more about
           - I had to write a lot of CSS to make this responsive. I'm not too sure how normal that is.
 
 Time
-  - This took me a total of 3 days and averaged around 5hrs of a day, so I will say it took me around a total of 15hrs. 
+  - This took me a total of 3 days and I averaged around 5hrs a day, so I will say it took me around a total of 15hrs. 
