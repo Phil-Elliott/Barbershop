@@ -77,3 +77,6 @@ function changePic() {
 
 	},10)
 }
+
+
+
