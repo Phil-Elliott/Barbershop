@@ -10,6 +10,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 header {
@@ -103,9 +104,54 @@ nav > ul > p {
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 100px;
+	grid-template-columns: 1.2fr 1fr;
+	column-gap: 130px;
 	grid-row-gap: 10px;
+}
+
+.about-left {
+	 font-size: 1.7rem;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+}
+
+.appointment-header {
+	background-color: #1C1C1C;
+	color: white;
+	width: 105%;
+	text-align: center;
+	padding: .8rem;
+}
+
+.directions-btn {
+	background-color: white;
+	color: black;
+	width: 35%;
+	text-align: center;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.directions-btn:hover {
+	background-color: #2F2F2F;
+	color: white;
+	transition: .5s;
+}
+
+.appointment-btn {
+	background-color: #2F2F2F;
+	color: white;
+	width: 70%;
+	text-align: center;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.appointment-btn:hover {
+	background-color: white;
+	color: black;
+	transition: 1s;
 }
 
 .text {
@@ -115,21 +161,10 @@ nav > ul > p {
 	margin: auto;
 }
 
-.about-text {
-	line-height: 120px;
-	font-family: 'Roboto', serif;
-	font-size: 3.2rem;
-	font-weight: bold;
-	border: 5px white solid;
-	padding: 1rem 2rem;
-	background-color: black;
-	color: white;
-	box-shadow: 5px 10px 10px grey;
-}
-
 .about-pic {
 	max-width: 100%;
 	height: auto;
+	object-fit: cover;
 }
 
 #prices {
@@ -252,6 +287,10 @@ a {
 	padding: 0rem 2rem;
 }	
 
+.about-left {
+	 font-size: 1.25rem;
+}
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -275,6 +314,10 @@ nav > ul > p {
 	padding: 0px;
 	font-size: 0rem;
 	border: none;
+}
+
+.about-left {
+	 font-size: 1rem;
 }
 
 .about-text {
@@ -332,6 +375,14 @@ nav > ul > p {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+}
+
+}
+
+@media only screen and (max-width: 950px) {
+
+.about-left {
+	 font-size: .8rem;
 }
 
 }
@@ -412,6 +463,10 @@ nav > ul > li > a:hover {
 .container {
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
+}
+
+.about-left {
+	 font-size: .9rem;
 }
 
 .text {
@@ -496,6 +551,10 @@ header {
 	position: relative;
 }
 
+.nav {
+	padding-left: 1rem;
+}
+
 #about {
 	width: 100vw; 
 	height: 100vh;
@@ -506,6 +565,10 @@ header {
 }
 .container {
 	grid-row-gap: 20px;
+}
+
+.about-left {
+	 font-size: .8rem;
 }
 
 .about-text {
